@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'MontserratAlternates-Regular';
+    src: url('resources/font/MontserratAlternates-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-Black';
+    src: url('resources/font/MontserratAlternates-Black.woff') format('woff');
+}
+
+html {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'MontserratAlternates-Regular';
+}
+  
+body{
+    background-color: #090909;
+}
+  
+div {
+    display: inline-block;
+}
+
+.bg{
+    position: relative; /*if problem occur, make it relative*/
+    width: header;
+    z-index: -10;
+}
+
+.bg-pic {
+    position: relative;
+    width: 100%;
+    margin-top: -20px;
+}
+
+#bg-txt {
+    margin-left: 40px;
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    /*width: 300px;*/
+    left: 5%;
+    top: 25%;
+    display: inline-block;
+    padding: 0.5vw 1vw;
+}
+
+#bg-title {
+    display: table;
+    text-align: left;
+    font-family: 'MontserratAlternates-Black';
+    font-size: 6vw;
+    color: #FD6041;
+    /*
+    text-align: unset;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);s
+    */
+}
+
+#bg-subtitle {
+    color: white;
+    display: table;
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+#text-easter-egg {
+    text-decoration: none;
+    color: white;
+}
+
+#text-easter-egg:hover {
+    color: #FD6041;
+}
+  
+/*SIDEBAR*/
+
+/*#sidenav-logo{
+}*/
+
+.sidenav {
+    width: 3vw;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    margin: 0; 
+    left: 0;
+    list-style-type: none;
+    height: 100%;
+    overflow: hidden;
+    /*background-color: #333333;*/
+    display: table;
+    font-size: 3vmin;
+}
+
+#sidebar-logo {
+    height: 10px;
+}
+  
+li a {
+    margin-left: unset;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    /*background-color: #161616;*/
+    color: unset;
+}
+
+/*#sidenav-exception {
+    /*background-color: #333333;*/
+
+/*SIDEBAR*/
+
+#subtitle {
+    font-size: larger;
+    text-align: left;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+  
+/*#site-name:hover{
+    color:white;
+}*/
+
+main {
+    margin-top: -30%;
+    position: static;
+}
+
+main, footer {
+    margin-left: 3vw;
+}
+
+.profile{
+    position: static;
+    /*background-color: #1d373f;*/
+    width: 100%;
+    left: 0;
+    margin-bottom: 100px;
+}
+
+/* IMAGE ROUND CROPPER */
+.img-cropper {
+    width: 17vmin;
+    height: 17vmin;
+    margin-left: auto; margin-right: auto;
+    position: static;
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+.img-profile {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+  
+/*IMAGE ROUND CROPPER (END)*/
+
+#profile-title {
+    color: #FD6041;
+}
+
+#description {
+    margin-left: 15%; margin-right: 15%;
+    color: white;
+}
+
+.button {
+    border-style: solid;
+    border-color: white;
+    border-width: medium;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    width: 70px;
+}
+
+.button:hover {
+    border-style: hidden;
+    background-color: white;
+    color: #080808;
+    /*color: #1d373f;*/
+}
+
+footer {
+    position: static;
+}
+
+#footer_info {
+    position: static;
+    /*background-color: #1d373f;*/
+    width: 100%;
+    left: 0;
+}
+
+#footer-title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'MontserratAlternates-Black';
+}
+
+#contacts {
+    right: 0px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin: 20px;
+    height: 2.7vh;
+}
+
+#legal-stuff {
+    text-align: unset;
+    font-size: 2.5vmin;
+}
+
+/*CONTACT PAGE*/
+.contact-entry {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: medium;
+    padding-left: 30px; padding-right: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight:unset;
+    color: white;
+    position: sticky;
+    margin-left: 7vw;
+    margin-right: 3vw;
+    margin-top: 5pt; margin-bottom: 5pt;
+    text-align: middle;
+    display: block;
+    z-index: 10;
+}
+
+.contact-content {
+    position: relative;
+    width: 40vmax;
+    align-content: left;
+}
+
+#facebook-entry {
+    border-color: #1773EA;
+    color: #1773EA;
+}
+
+#facebook-entry:hover {
+    background-color: #1773EA;
+}
+
+#twitter-entry {
+    border-color: #00A4D8;
+    color: #00A4D8;
+}
+
+#twitter-entry:hover {
+    background-color: #00A4D8;
+}
+
+#instagram-entry {
+    border-color: #E12F6B;
+}
+
+#instagram-entry:hover {
+    background-color: #E12F6B;
+}
+
+#linkedin-entry {
+    border-color: #0073B1;
+    color: #0073B1;
+}
+
+#linkedin-entry:hover {
+    background-color: #0073B1;
+}
+
+#github-entry {
+    border-color: #0D2534;
+    color: #0D2534;
+}
+
+#github-entry:hover {
+    background-color: #0D2534;
+}
+
+#youtube-entry {
+    border-color: #F70000;
+    color: #F70000;
+}
+
+#youtube-entry:hover {
+    background-color: #F70000;
+}
+
+#letterboxd-entry {
+    border-color: #00D550;
+    color: #00D550;
+}
+
+#letterboxd-entry:hover {
+    background-color: #00D550;
+}
+
+#discord-entry {
+    border-color: #5562EA;
+    color: #5562EA;
+}
+
+#discord-entry:hover {
+    background-color: #5562EA;
+}
+
+.contact-logo {
+    height: 60px;
+    margin: 10px;
+    display: inline-block;
+    position: sticky;
+    vertical-align: middle;
+}
+
+.contact-details {
+    display:table; 
+    display:table-cell;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact-title {
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-description {
+    text-align: middle;
+    margin-bottom: 2pt;
+}
+
+.username {
+    text-align: left;
+    display: inline-block;
+    opacity: 0.5;
+    margin-left: 5pt;
+    font-size: unset;
+}
