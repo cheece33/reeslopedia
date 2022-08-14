@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'MontserratAlternates-Regular';
+    src: url('resources/font/MontserratAlternates-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'MontserratAlternates-Black';
+    src: url('resources/font/MontserratAlternates-Black.woff') format('woff');
+}
+
+html {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'MontserratAlternates-Regular';
+}
+  
+body{
+    background-color: black;
+}
+  
+div {
+    
+}
+
+footer {
+    background-color: #333333;
+}
+
+.bg{
+    position: relative; /*if problem occur, make it relative*/
+    width: header;
+}
+
+.bg-pic {
+    position: relative;
+    width: 100%;
+    margin-top: -20px;
+}
+
+#bg-txt {
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    /*width: 300px;*/
+    left: 5%;
+    top: 15%;
+    display: inline-block;
+    padding: 0.5vw 1vw;
+}
+
+#bg-title {
+    display: table;
+    text-align: left;
+    font-family: 'MontserratAlternates-Black';
+    font-size: 6vw;
+    color: white;
+    /*
+    text-align: unset;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);s
+    */
+}
+
+#bg-subtitle {
+    color: white;
+    display: table;
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+#text-easter-egg {
+    text-decoration: none;
+    color:#602E24;
+}
+
+#text-easter-egg:hover {
+    color: white;
+}
+  
+/*SIDEBAR*/
+
+/*#sidenav-logo{
+}*/
+
+.sidenav {
+    width: 3vw;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    margin: 0; 
+    left: 0;
+    list-style-type: none;
+    height: 100%;
+    overflow: hidden;
+    background-color: #333333;
+    display: table;
+    font-size: 3vmin;
+}
+
+.content {
+    margin-left: 60px;
+}
+
+#sidebar-logo {
+    height: 10px;
+}
+  
+li a {
+    margin-left: unset;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #161616;
+    color: unset;
+}
+
+#sidenav-exception {
+    background-color: #333333;
+}
+
+/*SIDEBAR*/
+
+#subtitle {
+    font-size: larger;
+    text-align: left;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+  
+/*#site-name:hover{
+    color:white;
+}*/
+
+main {
+    margin-top: -70%;
+}
+
+.profile {
+    margin-left: 3vw;
+    position: absolute;
+    /*background-color: #1d373f;*/
+    width: 100%;
+    left: 0;
+}
+
+/* IMAGE ROUND CROPPER */
+.img-cropper {
+    width: 17vmin;
+    height: 17vmin;
+    margin-left: auto; margin-right: auto;
+    position: static;
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+.img-profile {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+  
+/*IMAGE ROUND CROPPER (END)*/
+
+#profile-title {
+    color: #fa5e40;
+}
+
+#description {
+    margin-left: 15%; margin-right: 15%;
+    color: white;
+}
+
+.button {
+    border-style: solid;
+    text-decoration: none;
+    border-color: white;
+    border-width: medium;
+    font-weight: bolder;
+    color: white;
+    width: 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    border-style: hidden;
+    background-color: white;
+    color: #080808;
+    /*color: #1d373f;*/
+}
+
+#footer_info {
+    margin-left: 3vw;
+    position: absolute;
+    /*background-color: #1d373f;*/
+    width: 100%;
+    left: 0;
+}
+
+#footer-title {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'MontserratAlternates-Black';
+}
+
+#contacts {
+    right: 0px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin: 20px;
+    height: 2.7vh;
+}
+
+#legal-stuff {
+    text-align: unset;
+    font-size: 13px;
+}
